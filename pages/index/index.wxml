@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  {{touchX}}
+  <view class='item' wx:for="{{store}}" wx:key='{{item.id}}'>
+    <view class='image'>
+      <image src='{{item.img}}' ></image>
+    </view>
+    <view class='list'>
+      <view class='name'>{{item.name}}</view>
+    </view>
+    <view class='list'>
+      <view class='list-item'>
+        重量: <text>{{item.weight}}</text>
+      </view>
+      <view  class='add' data-id='{{item.id}}' bindtap="goShopCar">
+        加入订单
+      </view>
+    </view>
+  </view>
+</view>

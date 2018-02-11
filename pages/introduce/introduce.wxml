@@ -1,0 +1,16 @@
+<!--pages/introduce/introduce.wxml-->
+<view class='container'>
+  <view class='title'>联系方式</view>
+  <view class='contain'>
+    <view class='text'>
+      <text>微信号: 15555802770</text>
+      <view class='copy' bindtap='copyWe'>点击复制</view> 
+    </view> 
+  </view>
+
+  <view class='title'>地址</view>
+  <view class='contain'>
+    <text>界首市富强路陶瓷大世界隔壁</text>
+  </view>
+  <map id="map" longitude="115.365238" latitude="33.253062" title="界首市五得利面粉" scale="20" iconPath="icon/icon.jpg"  style="width: 100%; height: 500rpx;"></map>
+</view>

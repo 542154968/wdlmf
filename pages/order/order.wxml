@@ -1,0 +1,6 @@
+<!--pages/order/order.wxml-->
+<view class='container'>
+  <view class='title'>订单已生成 您可以修改最终结果</view>
+  <textarea value="{{orderList}}" maxlength="-1" fixed="true" bindinput = "setTextData" ></textarea>
+  <view class='btn' bindtap='cloneStr'>点此复制订单信息</view>
+</view>

@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shopcar/shop",
+    "pages/introduce/introduce",
+    "pages/order/order"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商品列表"
+      },
+      {
+        "pagePath": "pages/shopcar/shop",
+        "text": "我的订单"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "text": "关于我们"
+      }
+    ]
+  }
+}

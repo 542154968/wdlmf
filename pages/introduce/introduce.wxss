@@ -1,0 +1,58 @@
+/* pages/introduce/introduce.wxss */
+.container{
+  padding: 20rpx 0;
+}
+.title{
+  box-sizing: border-box;
+  width: 750rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  color: #333;
+  font-size: 16px;
+  position: relative;
+}
+.title::before{
+  content: "";
+  width: 6rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 5rpx;
+  top: 5rpx;
+  background: #2dd382;
+  border-radius: 5rpx;
+}
+.contain{
+  width: 750rpx;
+  box-sizing: border-box;
+  padding:  20rpx;
+  margin: 20rpx auto;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden
+}
+.contain .img{
+  width: 610rpx;
+  margin: 20rpx auto 0;
+}
+.contain .img image{
+  width: 100%;
+}
+.contain .text text, .contain .text .copy{
+  float: left;
+}
+.contain .text{
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.contain .text .copy{
+  height: 40rpx;
+  line-height: 40rpx;
+  width: 120rpx;
+  text-align: center;
+  background: #2dd382;
+  color: #fff;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border-radius: 4rpx;
+}

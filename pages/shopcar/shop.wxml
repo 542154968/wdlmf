@@ -1,0 +1,33 @@
+<view class='container'>
+  <view  wx:if="{{arr.length <= 0}}" class="no-list">
+    订单是空的哦
+  </view>
+  <view wx:elif="{{arr.length > 0}}" class="contain">
+    <view > 
+      <view class='list {{ item.data.id == touchId ? "active" : "" }}' 
+        wx:for="{{resultArr}}" 
+        wx:key="{{item.data.id}}"
+        data-id='{{item.data.id}}' 
+        bindtouchstart="fingerStart" 
+        bindtouchmove="fingerMove" 
+      >
+        <view class='item'>
+          <view class='left'>
+            <view class='name'>{{item.data.name}}</view>
+            <view class='weight'>{{item.data.weight}}</view>
+          </view>
+          <view class='right'>
+            <view class='acc' data-id='{{item.data.id}}' bindtap='accNum' bindtouchstart='accNumStart' bindtouchend="accNumEnd" >-</view>
+            <view class='num'> <input value='{{item.num}}' type="number" data-id='{{item.data.id}}' bindinput="numChange"></input> </view>
+            <view class='add' data-id='{{item.data.id}}' bindtap='addNum'  bindtouchstart='addNumStart' bindtouchend="addNumEnd"  >+</view>
+          </view>
+        </view>
+        <view class='delete' data-id='{{item.data.id}}' bindtap='deleteGoods' >删除</view>
+      </view>
+    </view>
+    <view class='btn-contain'>
+      <view class='left btn' bindtap = 'clearList' >清空列表</view>
+      <view class='right btn' bindtap = 'getOrder' >生成订单</view>
+    </view>
+  </view>
+</view>

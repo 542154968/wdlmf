@@ -1,0 +1,48 @@
+/* pages/order/order.wxss */
+.container{
+  width: 750rpx;
+}
+.title{
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  width: 750rpx;
+  background: #ff7466;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 16px;
+  z-index: 4;
+}
+.btn{
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  z-index: 4;
+  width: 750rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  background: #2dd382;
+  font-size: 16px;
+}
+textarea{
+  position: fixed;
+  top: 80rpx;
+  bottom: 80rpx;
+  left: 0rpx;
+  right: 0rpx;
+  z-index: 1;
+  width: 750rpx;
+  height: auto;
+  box-sizing: border-box;
+  padding:  20rpx;
+  font-size: 16px;
+  color: #333;
+  line-height: 30rpx;
+  -webkit-overflow-scroll: touch
+}

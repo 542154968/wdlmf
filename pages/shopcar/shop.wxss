@@ -1,0 +1,117 @@
+/* pages/shopcar/shop.wxss */
+.no-list{
+  text-align: center;
+  padding-top: 30%;
+  font-size: 14px;
+  color: #ccc; 
+}
+.contain{
+  margin-bottom: 100rpx;
+}
+.list{
+  width: 750rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.list .item{
+  box-sizing: border-box;
+  width: 750rpx;
+  height: 130rpx;
+  padding: 10rpx 15rpx;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  transition: all 0.3s;
+}
+.list .item .left{
+  width: 400rpx;
+  float: left;
+}
+.list .item .name, .list .item .weight{
+  height: 55rpx;
+  line-height: 55rpx;
+}
+.list .item .name{
+  font-size: 15px;
+}
+.list .item .weight{
+  color: #eb6120;
+  font-size: 14px;
+}
+.list .item .right{
+  float: left;
+  width: 320rpx;
+}
+.list .item .acc, .list .item .add, .list .item .num{
+  float: left;
+  text-align: center;
+  box-sizing: border-box
+}
+.list .item .acc, .list .item .add{
+  width: 80rpx;
+  height: 110rpx;
+  padding: 30rpx 15rpx;
+  line-height: 42rpx;
+  transition: all 0.2s;
+}
+.list .item .acc:active, .list .item .add:active{
+  text-shadow: 0 0 2px red
+}
+.list .item .num, .list .item .num input{
+  width: 160rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+}
+.btn-contain {
+  width: 750rpx;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  z-index: 50
+}
+.btn-contain .btn{
+  width: 375rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  float: left;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: all 0.5s
+}
+.btn-contain .left{
+  background: #ff7466
+}
+.btn-contain .left:active{
+  box-shadow: 0 0 5rpx #ff7466;
+  text-shadow: 0 0 2px #fff
+}
+.btn-contain .right{
+  background: #2dd382
+}
+.btn-contain .right:active{
+  box-shadow: 0 0 5rpx #2dd382;
+  text-shadow: 0 0 2px #fff
+}
+.list .delete{
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 130rpx;
+  width: 140rpx;
+  line-height: 130rpx;
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.list.active .item{
+  transform: translate( -140rpx, 0 )
+}
