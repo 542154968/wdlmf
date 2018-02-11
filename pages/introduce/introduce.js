@@ -9,7 +9,7 @@ Page({
   },
   copyWe: function(){
     wx.setClipboardData({
-      data: '15555802770',
+      data: '1555****770',
       success: function (res) {
         wx.showToast({
           title: '复制成功'
