@@ -1,5 +1,5 @@
 # 关于这个项目
-    为什么想到写这个项目 说来话长 就是为了方便订单的管理吧  家里亲戚眼睛有点花了
+为什么想到写这个项目 说来话长 就是为了方便订单的管理吧 家里亲戚眼睛有点花了 用手机打字不方便
 # 功能介绍
 ```html
 获取物品列表 固定数据的JS文件 配合本地存储
@@ -15,7 +15,7 @@
 
 # 项目效果图
 
-![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/1.jpg)
-![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/2.jpg)
-![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/3.jpg)
-![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/4.jpg)
+* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/1.jpg)
+* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/2.jpg)
+* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/3.jpg)
+* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/4.jpg)
