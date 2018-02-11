@@ -16,6 +16,5 @@
 # 项目效果图
 
 * ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/1.jpg)
-* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/2.jpg)
-* ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/3.jpg)
+  ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/2.jpg)
 * ![image](https://github.com/542154968/wdlmf/blob/master/markdownImg/4.jpg)
