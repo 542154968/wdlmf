@@ -10,17 +10,17 @@ Page({
   },
   //事件处理函数
   goShopCar: function(event) {
-    const id = Number( event.target.dataset.id );
+    let id = Number( event.target.dataset.id );
     wx.getStorage({
       key: tools.userShop,
       success: function(data){
-        const response = data.data;
-        let result = {
+        let response = data.data,
+            result = {
           id:  id ,
           num: 1
         };
         let idArr = [];
-        for( var i = 0, l = response.length; i < l; i++ ){
+        for( let i = 0, l = response.length; i < l; i++ ){
           idArr.push( Number( response[i].id ) );
         };
         if( idArr.indexOf( id ) > -1 ){
@@ -84,7 +84,7 @@ Page({
         let data = res.data,
             arr = [];
         if( Array.isArray( data ) ){
-          for( var i = 0, l = data.length; i < l; i++ ){
+          for( let i = 0, l = data.length; i < l; i++ ){
             arr.push(data[i].id);
           }
         }
